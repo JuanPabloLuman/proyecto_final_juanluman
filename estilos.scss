@@ -21,6 +21,9 @@ body {
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
+.navbar{
+    background-image:linear-gradient(rgba(13, 11, 11, 0.912),$color1) !important;
+}
 h1{
     span{
         color: $color2;
@@ -38,11 +41,10 @@ h1{
 }
 
 .footer_home{
-    height: 100px;
+    height: 140px;
     width: 100%;
     margin-top: 50px;
-    border-radius: 10px;
-    background-color: $color1;
+    background-image:linear-gradient(rgba(13, 11, 11, 0.912),$color1);
 
 }
 
@@ -53,6 +55,7 @@ h1{
         background-size:contain;
         background-position: center;
         background-repeat: no-repeat;
+        border:none;
     }
     &.cont2{
         color:$color4;
@@ -63,6 +66,8 @@ h1{
     &.cont3{
     @extend.cont1;
     background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-payaso_250.png);
+    
+    
     }
     &.cont4{
         @extend.cont2;
@@ -70,6 +75,7 @@ h1{
     &.cont5{
         @extend.cont1;
         background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
+
     }
     &.cont6{
         @extend.cont2;
@@ -90,8 +96,8 @@ h1{
 
 //CONTACTO
 .formulario{
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top:50px;
+    margin-bottom:50px;
     .formulario1{
         background-image:linear-gradient(rgb(8, 8, 249),rgb(4, 195, 248));
         font-size: 20px;
@@ -101,4 +107,14 @@ h1{
 }
 
 //SUCURSALES
-
+.mapaN1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    .mapaN2{
+        background-image:linear-gradient(rgb(8, 8, 249),rgb(4, 195, 248));
+        padding: 30px;
+        background-size: 70%;
+        
+    }
+}

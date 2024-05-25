@@ -16,6 +16,10 @@ body {
   background-attachment: fixed;
 }
 
+.navbar {
+  background-image: linear-gradient(rgba(13, 11, 11, 0.912), #808080) !important;
+}
+
 h1 span {
   color: rgba(69, 25, 244, 0.8);
 }
@@ -30,11 +34,10 @@ h1 span {
 }
 
 .footer_home {
-  height: 100px;
+  height: 140px;
   width: 100%;
   margin-top: 50px;
-  border-radius: 10px;
-  background-color: #808080;
+  background-image: linear-gradient(rgba(13, 11, 11, 0.912), #808080);
 }
 
 .contenedor.cont1, .contenedor.cont5, .contenedor.cont3 {
@@ -42,6 +45,7 @@ h1 span {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  border: none;
 }
 .contenedor.cont2, .contenedor.cont8, .contenedor.cont7, .contenedor.cont6, .contenedor.cont4 {
   color: #ffffff;
@@ -60,13 +64,24 @@ h1 span {
 }
 
 .formulario {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .formulario .formulario1 {
   background-image: linear-gradient(rgb(8, 8, 249), rgb(4, 195, 248));
   font-size: 20px;
   border-radius: 10px;
+}
+
+.mapaN1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+}
+.mapaN1 .mapaN2 {
+  background-image: linear-gradient(rgb(8, 8, 249), rgb(4, 195, 248));
+  padding: 30px;
+  background-size: 70%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
