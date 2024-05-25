@@ -1,5 +1,13 @@
 $color1:#808080;
 $color2:#4519f4cc;
+$color3:#0063EA;
+$color4:#ffffff;
+$color5:#000000;
+
+*{
+    margin: 0;
+    padding: 0;
+}
 
 html, body {
     height: 100%;
@@ -22,21 +30,53 @@ h1{
 .contenedor{
     height: 200px;
     border: 2px solid $color1;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
-.caja1{
-.row{
-    .col-12{
-        .contenedor{
-            .cont1{
-                height: 250px;
-                width: 100%;
-            }
-        }
-        }
-}
-}
+
 .footer_home{
     height: 80px;
     width: 100%;
     background-color: $color1;
 }
+
+//HOME
+.contenedor{
+    &.cont1{
+        background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-dorado_250.png);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    &.cont2{
+        color:$color4;
+        text-align: center;
+        text-shadow: 3px 3px 6px $color5;
+        font-size: 15px;
+    }
+    &.cont3{
+    @extend.cont1;
+    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-payaso_250.png);
+    }
+    &.cont4{
+        @extend.cont2;
+    }
+    &.cont5{
+        @extend.cont1;
+        background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
+    }
+    &.cont6{
+        @extend.cont2
+    }
+}
+//PECES
+
+//PECERAS
+
+//CONTACTO
+
+//SUCURSALES
+
