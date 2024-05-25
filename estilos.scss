@@ -32,15 +32,18 @@ h1{
     border: 2px solid $color1;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     
 }
 
 .footer_home{
-    height: 80px;
+    height: 100px;
     width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
     background-color: $color1;
+
 }
 
 //HOME
@@ -55,7 +58,7 @@ h1{
         color:$color4;
         text-align: center;
         text-shadow: 3px 3px 6px $color5;
-        font-size: 15px;
+        font-size: 16px;
     }
     &.cont3{
     @extend.cont1;
@@ -73,13 +76,11 @@ h1{
     }
     &.cont7{
         @extend.cont2;
-        font-size: 14px;
         
     }
     &.cont8{
         @extend.cont2;
         text-align: left;
-        font-size: 13px;
         
     }
 }
@@ -88,6 +89,16 @@ h1{
 //PECERAS
 
 //CONTACTO
+.formulario{
+    margin-top:20px;
+    margin-bottom:20px;
+    .formulario1{
+        background-color: $color2;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+
+}
 
 //SUCURSALES
 

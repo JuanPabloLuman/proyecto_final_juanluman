@@ -25,13 +25,15 @@ h1 span {
   border: 2px solid #808080;
   border-radius: 15px;
   padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .footer_home {
-  height: 80px;
+  height: 100px;
   width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
   background-color: #808080;
 }
 
@@ -45,7 +47,7 @@ h1 span {
   color: #ffffff;
   text-align: center;
   text-shadow: 3px 3px 6px #000000;
-  font-size: 15px;
+  font-size: 16px;
 }
 .contenedor.cont3 {
   background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-payaso_250.png);
@@ -53,12 +55,18 @@ h1 span {
 .contenedor.cont5 {
   background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
 }
-.contenedor.cont7 {
-  font-size: 14px;
-}
 .contenedor.cont8 {
   text-align: left;
-  font-size: 13px;
+}
+
+.formulario {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario .formulario1 {
+  background-color: rgba(69, 25, 244, 0.8);
+  font-size: 20px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
