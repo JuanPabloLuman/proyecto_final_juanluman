@@ -69,7 +69,18 @@ h1{
         background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
     }
     &.cont6{
-        @extend.cont2
+        @extend.cont2;
+    }
+    &.cont7{
+        @extend.cont2;
+        font-size: 14px;
+        
+    }
+    &.cont8{
+        @extend.cont2;
+        text-align: left;
+        font-size: 13px;
+        
     }
 }
 //PECES

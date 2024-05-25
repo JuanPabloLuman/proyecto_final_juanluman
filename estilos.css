@@ -41,7 +41,7 @@ h1 span {
   background-position: center;
   background-repeat: no-repeat;
 }
-.contenedor.cont2, .contenedor.cont6, .contenedor.cont4 {
+.contenedor.cont2, .contenedor.cont8, .contenedor.cont7, .contenedor.cont6, .contenedor.cont4 {
   color: #ffffff;
   text-align: center;
   text-shadow: 3px 3px 6px #000000;
@@ -52,6 +52,13 @@ h1 span {
 }
 .contenedor.cont5 {
   background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
+}
+.contenedor.cont7 {
+  font-size: 14px;
+}
+.contenedor.cont8 {
+  text-align: left;
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
