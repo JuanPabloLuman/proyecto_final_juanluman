@@ -23,7 +23,24 @@ body {
 }
 .navbar{
     background-image:linear-gradient(rgba(13, 11, 11, 0.912),$color1) !important;
+    margin-bottom: 50px;
+    .navbar-brand{
+        font-size: 50px;
+        margin-right: 40px;
+        padding: 20px;
+    }
+    .navbar-collapse{
+        font-size: 25px;
+        .nav-item{
+            margin-right: 60px;
+        }
+    }
+
 }
+.nav-link:hover{
+    color: $color4 !important;
+}
+
 h1{
     span{
         color: $color2;
@@ -35,9 +52,14 @@ h1{
     border: 2px solid $color1;
     border-radius: 15px;
     padding: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.7s;
+    background-size: 90%;
     
+}
+.contenedor:hover{
+    transform: scale(1.05);
 }
 
 .footer_home{
@@ -50,12 +72,24 @@ h1{
 
 //HOME
 .contenedor{
+    h1{
+        padding: 10px;
+    }
+    p{
+        padding: 10px;
+    }
+    &.cont0{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     &.cont1{
-        background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-dorado_250.png);
+        background-image: url();
         background-size:contain;
         background-position: center;
         background-repeat: no-repeat;
         border:none;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     &.cont2{
         color:$color4;
@@ -65,8 +99,9 @@ h1{
     }
     &.cont3{
     @extend.cont1;
-    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-payaso_250.png);
-    
+    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-dorado_250.png);
+    margin-bottom: 30px;
+    margin-top: 30px
     
     }
     &.cont4{
@@ -75,6 +110,8 @@ h1{
     &.cont5{
         @extend.cont1;
         background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
+        margin-bottom: 30px;
+        margin-top: 30px
 
     }
     &.cont6{
@@ -90,6 +127,7 @@ h1{
         
     }
 }
+
 //PECES
 
 //PECERAS
