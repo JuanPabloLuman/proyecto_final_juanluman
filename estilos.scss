@@ -371,6 +371,7 @@ h1{
     font-size: $texto_t1;
     background-image:linear-gradient(rgb(8, 8, 249),rgb(4, 195, 248));
     color: $color4;
+    box-shadow: 3px 3px 6px $color5;
     text-shadow: 3px 3px 6px $color5;
     padding: $texto_t3;
 }
