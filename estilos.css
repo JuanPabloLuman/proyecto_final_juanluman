@@ -256,63 +256,15 @@ h1 span {
   background-repeat: no-repeat;
 }
 
-.item_1 {
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6 {
   font-size: 15px;
-}
-.item_1 .h2 {
-  text-align: center;
-}
-.item_1 .ul {
-  text-align: left;
 }
 
-.item_2 {
-  font-size: 15px;
-}
-.item_2 .h2 {
+.item_1 h2, .item_2 h2, .item_3 h2, .item_4 h2, .item_5 h2, .item_6 h2 {
   text-align: center;
-}
-.item_2 .ul {
-  text-align: left;
 }
 
-.item_3 {
-  font-size: 15px;
-}
-.item_3 .h2 {
-  text-align: center;
-}
-.item_3 .ul {
-  text-align: left;
-}
-
-.item_4 {
-  font-size: 15px;
-}
-.item_4 .h2 {
-  text-align: center;
-}
-.item_4 .ul {
-  text-align: left;
-}
-
-.item_5 {
-  font-size: 15px;
-}
-.item_5 .h2 {
-  text-align: center;
-}
-.item_5 .ul {
-  text-align: left;
-}
-
-.item_6 {
-  font-size: 15px;
-}
-.item_6 .h2 {
-  text-align: center;
-}
-.item_6 .ul {
+.item_1 ul, .item_2 ul, .item_3 ul, .item_4 ul, .item_5 ul, .item_6 ul {
   text-align: left;
 }
 

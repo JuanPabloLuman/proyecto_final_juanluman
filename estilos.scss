@@ -276,66 +276,18 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;   
 }
-
-.item_1{
+.item_1, .item_2, .item_3, .item_4, .item_5, .item_6 {
     font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
 }
-.item_2{
-    font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
 
+.item_1 h2, .item_2 h2, .item_3 h2, .item_4 h2, .item_5 h2, .item_6 h2 {
+    text-align: center;
 }
-.item_3{
-    font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
 
+.item_1 ul, .item_2 ul, .item_3 ul, .item_4 ul, .item_5 ul, .item_6 ul {
+    text-align: left;
 }
-.item_4{
-    font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
 
-}
-.item_5{
-    font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
-
-}
-.item_6{
-    font-size: 15px;
-    .h2{
-        text-align: center;
-    }
-    .ul{
-        text-align: left;
-    }
-
-}
 
 @media screen and (min-width:768px) {
     .contenedor2{
