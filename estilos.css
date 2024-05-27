@@ -101,6 +101,276 @@ h1 span {
   text-align: left;
 }
 
+.contenedor2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(12, 300px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.itempeces {
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  border: 3px solid #808080;
+}
+
+.item1 {
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/Corydoras_300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item3 {
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/guppy_300.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/neon-tetra_400.jpg);
+}
+
+.item6 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item7 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-angel_400.jpg);
+}
+
+.item8 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item9 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pez-betta-pecera_400.jpg);
+}
+
+.item10 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.item11 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/camaron_1_300.jpg);
+}
+
+.item12 {
+  font-size: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .contenedor2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 300px);
+  }
+}
+@media screen and (min-width: 576px) {
+  .contenedor2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 300px);
+    font-size: 12px;
+  }
+  .item1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .item3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .item4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .item6 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item7 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .item8 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item9 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .item10 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .item11 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+  }
+  .item12 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+}
+.contenedor3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 400px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.item_1 {
+  font-size: 15px;
+}
+.item_1 .h2 {
+  text-align: center;
+}
+.item_1 .ul {
+  text-align: left;
+}
+
+.item_2 {
+  font-size: 15px;
+}
+.item_2 .h2 {
+  text-align: center;
+}
+.item_2 .ul {
+  text-align: left;
+}
+
+.item_3 {
+  font-size: 15px;
+}
+.item_3 .h2 {
+  text-align: center;
+}
+.item_3 .ul {
+  text-align: left;
+}
+
+.item_4 {
+  font-size: 15px;
+}
+.item_4 .h2 {
+  text-align: center;
+}
+.item_4 .ul {
+  text-align: left;
+}
+
+.item_5 {
+  font-size: 15px;
+}
+.item_5 .h2 {
+  text-align: center;
+}
+.item_5 .ul {
+  text-align: left;
+}
+
+.item_6 {
+  font-size: 15px;
+}
+.item_6 .h2 {
+  text-align: center;
+}
+.item_6 .ul {
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .contenedor2 {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 320px;
+    grid-gap: 20px;
+  }
+  .item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .item2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .item3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .item4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .item5 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .item6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .item7 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .item8 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .item9 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .item10 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .item11 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .item12 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+  }
+}
 .formulario {
   margin-top: 50px;
   margin-bottom: 50px;
