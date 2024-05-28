@@ -446,6 +446,77 @@ h1 span {
     grid-row: 3/4;
   }
 }
+.contenedor4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 300px);
+  background-position: center;
+  background-size: cover;
+}
+.contenedor4 .item_peceras {
+  border: 3px solid #808080;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 3px 3px 6px #000000;
+  margin-bottom: 20px;
+}
+
+.itempecera2, .itempecera4, .itempecera6 {
+  font-size: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgb(8, 8, 249), rgb(4, 195, 248));
+  color: #ffffff;
+  text-shadow: 3px 3px 6px #000000;
+}
+
+.itempecera1 {
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pecera_1_400.jpg);
+}
+
+.itempecera3 {
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/pecera_2_400.jpg);
+}
+
+.itempecera5 {
+  background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/peceras-decorativas-para-el-hoga_400.jpg);
+}
+
+@media screen and (min-width: 576px) {
+  .contenedor4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 300px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .contenedor4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+  }
+  .itempecera1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .itempecera2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .itempecera3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .itempecera4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .itempecera5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .itempecera6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+}
 .formulario {
   margin-top: 50px;
   margin-bottom: 50px;
