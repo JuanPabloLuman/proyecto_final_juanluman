@@ -486,9 +486,85 @@ text-shadow: 3px 3px 6px $color5;
     .itempecera4{grid-column: 2/3;grid-row: 2/3;}
     .itempecera5{grid-column: 1/2;grid-row: 3/4;}
     .itempecera6{grid-column: 2/3;grid-row: 3/4;}
+}
+@media screen and (min-width:992px){
+    .contenedor4{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(3,300px);
+    }
+
+    .itempecera1{grid-column: 1/2;grid-row: 1/2;}
+    .itempecera2{grid-column: 2/3;grid-row: 1/2;}
+    .itempecera3{grid-column: 1/2;grid-row: 2/3;}
+    .itempecera4{grid-column: 2/3;grid-row: 2/3;}
+    .itempecera5{grid-column: 1/2;grid-row: 3/4;}
+    .itempecera6{grid-column: 2/3;grid-row: 3/4;}
+}
+
+.jumbo{
+    font-size: $texto_t3;
+    box-shadow: 3px 3px 6px $color5;
+    text-shadow: 3px 3px 6px $color5;
+    h2{
+        font-size: $texto_t4;
+    }
+}
+.contenedor5{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,300px);
+    background-position: center;
+    background-size: cover;
+    .item_peceras2{
+        border: 3px solid $color1;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 3px 3px 6px $color5;
+        margin-bottom: $texto_t2;
+    }
+}
+.itempecera_2,.itempecera_4,.itempecera_6{
+    font-size: $texto_t2;
+    text-align: center;
+    color: $color4;
+    text-shadow: 3px 3px 6px $color5;
+}
+.itempecera_1{
+    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/plantas_10_400.jpg);
+}
+.itempecera_3{
+    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/plantas_16_400.jpg);
+}
+.itempecera_5{
+    background-image: url(/Multimedia/imagenes_peces/imagenes_pez_1/plantas_15_400.jpg);
+}
+
+@media screen and (min-width:576px) {
+    .contenedor5{
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(6,300px);
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .contenedor5{
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+    .itempecera_1{grid-column: 1/2;grid-row: 1/2;}
+    .itempecera_2{grid-column: 1/2;grid-row: 2/3;}
+    .itempecera_3{grid-column: 2/3;grid-row: 1/2;}
+    .itempecera_4{grid-column: 2/3;grid-row: 2/3;}
+    .itempecera_5{grid-column: 3/4;grid-row: 1/2;}
+    .itempecera_4{grid-column: 3/4;grid-row: 3/4;}
+    
     
     
 }
+
+
+
 
 //CONTACTO
 .formulario{
