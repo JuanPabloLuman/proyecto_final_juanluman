@@ -60,12 +60,12 @@ h1 span {
   width: 100%;
   margin-top: 50px;
   background-image: linear-gradient(rgba(13, 11, 11, 0.912), #808080);
-  font-size: 30px;
+  font-size: 20px;
   color: #ffffff;
   text-align: center;
 }
 .footer_home .redes {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -570,12 +570,12 @@ h1 span {
   }
 }
 .jumbo {
-  font-size: 30px;
+  font-size: 20px;
   box-shadow: 3px 3px 6px #000000;
   text-shadow: 3px 3px 6px #000000;
 }
 .jumbo h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .contenedor5 {
@@ -725,10 +725,6 @@ h1 span {
     grid-row: 2/4;
   }
 }
-div p {
-  margin-top: 12px;
-}
-
 .formulario {
   margin-top: 50px;
   margin-bottom: 50px;

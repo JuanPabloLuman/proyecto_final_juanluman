@@ -72,12 +72,12 @@ h1{
     width: 100%;
     margin-top: 50px;
     background-image: linear-gradient(rgba(13, 11, 11, 0.912), $color1);
-    font-size: $texto_t3;
+    font-size: $texto_t2;
     color: $color4;
     text-align: center;
     
     .redes {
-        font-size: $texto_t3;
+        font-size: $texto_t2;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -515,11 +515,11 @@ text-shadow: 3px 3px 6px $color5;
 }
 
 .jumbo{
-    font-size: $texto_t3;
+    font-size: $texto_t2;
     box-shadow: 3px 3px 6px $color5;
     text-shadow: 3px 3px 6px $color5;
     h2{
-        font-size: $texto_t4;
+        font-size: $texto_t3;
     }
 }
 .contenedor5{
@@ -611,11 +611,6 @@ text-shadow: 3px 3px 6px $color5;
     .itempecera_5{grid-column: 3/4;grid-row: 1/2;}
     .itempecera_6{grid-column: 3/4;grid-row: 2/4;}
 
-}
-div{
-    p{
-        margin-top: 12px;
-    }
 }
 
 
