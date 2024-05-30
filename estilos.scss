@@ -77,14 +77,14 @@ h1{
     text-align: center;
     
     .redes {
-        font-size: $texto_t4;
+        font-size: $texto_t3;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px; 
         
         i {
-            margin: 0 10px; 
+            margin:10px; 
             transition: color 0.3s;
         }
     }
@@ -123,7 +123,7 @@ h1{
     }
     &.cont3{
     @extend.cont1;
-    background-image: url(/proyecto_juan_luman/Multimedia/imagenes_peces/imagenes_pez_1/pez-dorado_250.png);
+    background-image: url(/proyecto_final_juanluman/Multimedia/imagenes_peces/imagenes_pez_1/pez-dorado_250.png);
     margin-bottom: $texto_t3;
     margin-top: $texto_t3;
     
@@ -133,7 +133,7 @@ h1{
     }
     &.cont5{
         @extend.cont1;
-        background-image: url(/proyecto_juan_luman/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
+        background-image: url(/proyecto_final_juanluman/Multimedia/imagenes_peces/imagenes_pez_1/pez-volador_250.png);
         margin-bottom: $texto_t3;
         margin-top: $texto_t3;
 
