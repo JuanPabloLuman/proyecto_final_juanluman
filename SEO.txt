@@ -1,0 +1,66 @@
+1-Se agrega un titulo claro al documento index "Aquary inicio",Se crea index, archivos CSS y SCSS, carpeta con 4 paginas y carpeta multimedia
+git commit 1175d95.
+
+2-Se agrega keywords a index,Se modifican enlaces y se agregan etiquetas meta keyword y description a cada pagina
+git commit 17317ac.
+
+3-Se implementan keywords en cada pagina del proyecto en las etiquetas <meta name="keywords">
+git commit 17317ac , se modifican enlaces y se agregan etiquetas meta keyword y description a cada pagina
+
+4-En cada página incluye las siguientes etiquetas meta
+<meta name="keywords" content="peces, peceras, acuario">
+
+4.1 Se agrega contenido relevante para la pagina index (parrafos) , git commit 758cb90 Se agregan imagenes a home, 
+se agregan parrafos y se edita el texto, se agregan 2 columnas extras a index.
+
+4.2 Se agregan imagenes a pagina index ,git commit 758cb90
+Se agregan imagenes a home, se agregan parrafos y se edita el texto, se agregan 2 columnas extras a index.
+
+4.2.1 Se agregan imagenes a pagina peces y peceras
+git commit 1.05 - Se agrega fondo a la pantalla del navegador usando un linear-gradient, se modifica h1.
+git commit 1.06 - Se agrega icono de pez payaso a todas las pantallas.
+
+4.2.2 Se agregan parrafos con contenido en pagina peceras
+git commit 1.07 - Se cambia h1 en todas las paginas, se modifica navbar de sm a md.
+git commit 563a294 - Se agrega contenedor4 a página peceras, se agregan 4 items,
+ 3 imagenes, 3 parrafos, se aplican mediaQuery pantalla -576, 576, 768px.
+
+4.3 Se agrega footer y redes sociales a index
+git commit 1.8 - Se agrega redes sociales a footer, se agrega footer a todas las paginas.
+
+4.4 Se agrega footer y redes sociales a cada pagina
+git commit 1.8 - Se agrega redes sociales a footer, se agrega footer a todas las paginas.
+
+5-Se etiquetas, encabezados y uso de encabezados estan siguiendo la jerarquía en todas las paginas
+git commit 1.07 - Se cambia h1 en todas las paginas, se modifica navbar de sm a md.
+
+5.1 Se etiqueta pagina index con h1 en nav y h2 para titulos de parrafos
+git commit 1.07 - Se cambia h1 en todas las paginas, se modifica navbar de sm a md.
+
+5.2 Se etiqueta parrafos de pagina peceras con h2 para sus titulos
+git commit 563a294 - Se agrega contenedor4 a pagina peceras, se agregan 4 items, 
+3 imagenes, 3 parrafos, se aplican mediaQuery pantalla -576, 576, 768px.
+
+6-Se aplican correctamente las etiquetas <h1> y <h2>, solo se usa h1 para logos y h2 para titulos de parrafo
+git commit 1.07 - Se cambia h1 en todas las paginas, se modifica navbar de sm a md.
+
+7-Se hace una revisión para asegurar que todas las imágenes incluyen atributos alt descriptivos, tamaño de las imagenes optimizado
+git commit 7ca2da8 Se agregan etiquetas descriptivas a todas las imagenes.
+
+
+Registro de commits relevantes=
+
+1175d95 - Se crea index, archivos CSS y SCSS, carpeta con 4 paginas y carpeta multimedia.
+f34bdd8 - Se enlazan index y las paginas de la carpeta a documento CSS.
+ba0d0a3 - Se agregan links y scripts de Bootstrap a cada pagina.
+4ac6680 - Se agrega nav y enlaces a todas las paginas
+b03feb3 - Se agrega fondo a la pantalla del navegador usando un linear-gradient, se modifica h1.
+f8b7bb9 - Se agrega icono de pez payaso a todas las pantallas
+1.07 -    Se cambia h1 en todas las paginas, se modifica navbar de sm a md.
+758cb90 - Se agregan imagenes a home, se agregan parrafos y se edita el texto, se agregan 2 columnas extras a index.
+1.8 -     Se agrega redes sociales a footer, se agrega footer a todas las páginas.
+563a294 - Se agrega contenedor4 a página peceras, se agregan 4 items, 3 imagenes, 3 párrafos, se aplican mediaQuery pantalla -576, 576, 768px.
+17317ac - Se modifican enlaces y se agregan etiquetas meta keyword y description a cada página
+7ca2da8 - Se agregan etiquetas descriptivas a todas las imagenes.
+
+
