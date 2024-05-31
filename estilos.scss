@@ -20,7 +20,7 @@ html, body {
 }
 
 body {
-    background-image: linear-gradient(to right bottom, rgba(25, 25, 25, 0.8), rgba(71, 25, 255, 0.8)), url('/Multimedia/imagenes_peces/fondo_peces.jpeg');
+    background-image: linear-gradient(to right bottom, rgba(25, 25, 25, 0.8), rgba(71, 25, 255, 0.8)), url('/proyecto_final_juanluman/Multimedia/imagenes_peces/fondo_peces.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -544,7 +544,7 @@ text-shadow: 3px 3px 6px $color5;
     transform: scale(1.09);
 }
 .itempecera_2,.itempecera_4,.itempecera_6{
-    font-size: $texto_t1;
+    font-size: 18px;
     text-align: center;
     color: $color4;
     text-shadow: 3px 3px 6px $color5;
